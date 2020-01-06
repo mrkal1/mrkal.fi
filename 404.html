@@ -1,69 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>404</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Roboto:100');
-      @import url('https://fonts.googleapis.com/css?family=Orbitron:900');
-      body {
-        background-color: #095700;
-        color: #eee;
-        font-size: 20px;
-      }
-      #content {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: 300px;
-        height: 300px;
-        margin-left: -200px;
-        margin-top: -150px;
-        text-align: center;
-      }
-      h1 {
-        margin: 0;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 100;
-        font-size: 250px;
-      }
-      h2 {
-        margin: 0;
-        font-family: 'Orbitron', sans-serif;
-        font-weight: 900;
-        font-size: 20px;
-      }
-      a {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 100;
-      }
-      a:link    { color: #eee; text-decoration: none; }
-      a:visited { color: #ddd; text-decoration: none; }
-      a:hover   { color: #fff; text-decoration: none; }
-      a:active  { color: #fff; text-decoration: none; }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
   </head>
-
   <body>
-    <div id="background"></div>
-    <div id="content">
-      <h1>404</h1>
-      <h2></h2>
-      <br>
-    </div>
-    <div id="particles-js"></div>
+    <section class="hero is-fullheight" id="particles-js">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title is-2  has-text-light" >
+            404
+          </h1>
+        </div>
+      </div>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
-    <script type="text/javascript" language="JavaScript">
-        particlesJS.load('particles-js', 'https://mrkal.fi/mrkal/json/particles.json', function() {
-            console.log('callback - particles.js config loaded');
-          });
-    </script>
-    </body>
-  <audio autobuffer="autobuffer" autoplay="" hidden="true" id="bg_music" loop="true">
-    <script type="8e883f36d8708ac4a39e0a58-text/javascript">
-                  var backgroundAudio = document.getElementById("bg_music");
-                  backgroundAudio.volume = 1;
-            </script>
-    <source src="media/deeveedee.mp3" type="audio/mpeg">
-    </audio>
+    <script type="text/javascript" src="lib/main.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
 </html>

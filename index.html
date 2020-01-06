@@ -1,62 +1,27 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mr. Kal's Website</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css?family=Roboto:100");
-      @import url('https://fonts.googleapis.com/css?family=Orbitron:900');
-      body {
-        background-color: #0d3f00;
-        color: #eee;
-        font-size: 20px;
-      }
-      #content {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: 400px;
-        height: 300px;
-        margin-left: -200px;
-        margin-top: -150px;
-        text-align: center;
-      }
-      h1 {
-        margin: 0;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 100;
-        font-size: 120px;
-      }
-      h2 {
-        margin: 0;
-        font-family: 'Orbitron', sans-serif;
-        font-weight: 900;
-        font-size: 20px;
-      }
-      a {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 100;
-      }
-      a:link    { color: #adadad; text-decoration: none; }
-      a:visited { color: #adadad; text-decoration: none; }
-      a:hover   { color: #fff; text-decoration: none; }
-      a:active  { color: #fff; text-decoration: none; }
-    </style>
-
+    <link rel="stylesheet" href="css/main.css">
   </head>
-
   <body>
-    <div id="background"></div>
-    <div id="content">
-      <h1>Mr. Kal</h1>
-      <h2></h2>
-      <br>
-      <a href="https://github.com/mrkal666">GitHub</a> -
-      <a href="https://discord.me/sestain">Discord</a> -
-      <a href="https://github.com/mrkal666/mrkal.fi">Source</a>
-    </div>
-    <div id="particles-js"></div>
+    <section class="hero is-fullheight" id="particles-js">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title is-1  has-text-light">
+            Mr. Kal
+          </h1>
+          <h2 class="subtitle  has-text-light">
+            <a href="https://github.com/mrkal666" class="has-text-light">Github</a> - <a href="https://discord.me/sestain" class="has-text-light">Discord</a> - <a href="https://github.com/mrkal666/mrkal.fi" class="has-text-light">Source</a>  
+          </h2>
+        </div>
+      </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
-    <script src="js/app.js"></script>
+    <script type="text/javascript" src="lib/main.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
