@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 if [[ $(systemctl show -p SubState --value nginx.service) = dead ]]; then
   echo "someone is dead"
   systemctl start nginx.service
