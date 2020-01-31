@@ -7,5 +7,4 @@ else
     echo "someone is dead"
 fi
 
-
 rm -r -f /usr/share/nginx/html/temp/*
