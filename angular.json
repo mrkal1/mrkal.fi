@@ -20,9 +20,10 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
               "src/assets",
-              "src/kuopio.html"
+              "src/kuopio.html",
+              "src/403.html",
+              "src/404.html"
             ],
             "styles": [
               "src/styles/styles.scss"
