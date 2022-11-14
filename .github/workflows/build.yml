@@ -40,3 +40,5 @@ jobs:
         platforms: linux/amd64
         push: true
         tags: reg.mrkal.fi/mrkalfi:latest
+    - name: Update container on server
+      run: curl -d '{"username"="test", "content"="hello"}' ${{ secrets.reg_webhook }}
