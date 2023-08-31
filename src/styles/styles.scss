@@ -1,5 +1,10 @@
 @charset "utf-8";
-@import "bulma/bulma";
+@import "bulma/sass/helpers/_all.sass";
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/base/_all.sass";
+@import "bulma/sass/layout/_all.sass";
+@import "bulma/sass/elements/title.sass";
+@import "bulma/sass/elements/content.sass";
 html {
     overflow-y: hidden;
 }
