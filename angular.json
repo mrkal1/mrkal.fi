@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "mrkal.fi:build:production"
+              "buildTarget": "mrkal.fi:build:production"
             },
             "development": {
-              "browserTarget": "mrkal.fi:build:development"
+              "buildTarget": "mrkal.fi:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mrkal.fi:build"
+            "buildTarget": "mrkal.fi:build"
           }
         },
         "test": {
