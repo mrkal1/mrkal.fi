@@ -34,7 +34,6 @@
 		"docker-from-docker": "latest",
 		"git": "os-provided",
 		"github-cli": "latest",
-		"fish": "latest",
 		"powershell": "latest"
 	}
 }
