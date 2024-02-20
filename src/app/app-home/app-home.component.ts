@@ -1,25 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgParticlesModule } from 'ng-particles';
-import { particlesOptions } from '../tsparticlesconfig';
-import { loadFull } from "tsparticles";
-import { Engine } from 'tsparticles-engine';
+import { AppbackgroundComponent } from '../appbackground/appbackground.component';
 
 @Component({
   selector: 'app-app-home',
   standalone: true,
-  imports: [CommonModule, NgParticlesModule],
+  imports: [CommonModule, NgParticlesModule, AppbackgroundComponent],
   templateUrl: './app-home.component.html',
-  styleUrls: ['./app-home.component.scss']
+  styleUrls: ['./app-home.component.scss'],
 })
-export class AppHomeComponent {
-  particlesoptions = particlesOptions;
-  
-  async particlesInit(engine: Engine): Promise<void> {
-    
-    // Starting from 1.19.0 you can add custom presets or shape here, using the current tsParticles instance (main)
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    await loadFull(engine);
-  }
-}
+export class AppHomeComponent {}
