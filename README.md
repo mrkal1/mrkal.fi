@@ -1,2 +1,2 @@
 # [mrkal.fi](https://mrkal.fi)
-My website made with [Angular](https://angular.io/)
+My website made with [Next.JS](https://nextjs.org/)
