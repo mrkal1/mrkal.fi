@@ -13,9 +13,8 @@ export default function Home() {
       </div>
       
       <div className="flex gap-3 text-xl">
-        <a href="https://github.com/mrkal666">Github</a>
-        <a href="https://discord.gg/invite/Vrf9gGVMA3">Discord</a>
-        <a href="https://github.com/mrkal666/mrkal.fi">Source</a>
+        <a href="https://github.com/mrkal1">Github</a>
+        <a href="https://github.com/mrkal1/mrkal.fi">Source</a>
       </div>
     </div>
   );
