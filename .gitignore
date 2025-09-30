@@ -43,3 +43,4 @@ Thumbs.db
 fly.toml
 
 .next/
+.open-next/
