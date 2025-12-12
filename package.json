@@ -16,7 +16,7 @@
     "@tsparticles/engine": "^3.4.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.4.0",
-    "next": "16.0.8",
+    "next": "16.0.9",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
