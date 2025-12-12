@@ -16,7 +16,7 @@
     "@tsparticles/engine": "^3.4.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.4.0",
-    "next": "16.0.9",
+    "next": "16.0.10",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
@@ -26,7 +26,7 @@
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
     "eslint": "^9",
-    "eslint-config-next": "16.0.8",
+    "eslint-config-next": "16.0.10",
     "postcss": "^8",
     "tailwindcss": "^4.0.0",
     "typescript": "^5",
