@@ -17,13 +17,13 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.4.0",
     "next": "^15.5.9",
-    "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^24.0.0",
-    "@types/react": "19.2.15",
+    "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
@@ -33,7 +33,7 @@
     "wrangler": "^4.59.1"
   },
   "overrides": {
-    "@types/react": "19.2.15",
+    "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3"
   }
 }
