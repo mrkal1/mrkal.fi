@@ -49,11 +49,6 @@ export const particlesOptions: ISourceOptions = {
       random: true,
       speed: 4.810236182596568,
       straight: false,
-
-      attract: {
-        enable: false,
-        rotate: { x: 600, y: 1200 },
-      },
     },
     number: {
       density: {
